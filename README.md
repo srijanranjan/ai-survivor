@@ -39,16 +39,17 @@ opponent, get scored by the Judge, and the lowest scorer is eliminated
 (with a host explanation of why). Repeat until one contestant remains.
 
 ## Project structure
+
+```
 ai-survivor/
-
-├── app.py                 # Streamlit dashboard  
-├── run_round.py           # Core round logic (CLI + reusable by app.py)  
+├── app.py                 # Streamlit dashboard
+├── run_round.py           # Core round logic (CLI + reusable by app.py)
 ├── agents/
-│   ├── contestant.py      # Contestant class: personality, stance, memory  
-│   └── judge.py           # Scoring + elimination explanation  
+│   ├── contestant.py      # Contestant class: personality, stance, memory
+│   └── judge.py           # Scoring + elimination explanation
 └── debate/
-      └── topics.py          # Topic list + stance assignment 
-
+    └── topics.py          # Topic list + stance assignment
+```
 ## Current scope (v1)
 
 - 4 contestants, single-elimination
