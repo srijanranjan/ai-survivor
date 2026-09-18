@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/
+
+# Database
+*.db
+*.sqlite3
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env vars / secrets (if you add API keys later)
+.env
